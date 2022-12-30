@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: Spike Damage
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":245.7972,"y":-31.20279},"zoom":1.0,"elements":[{"argumentCount":0,"defaultValues":{"name":{"$content":"Death","$type":"System.String"},"target":null},"position":{"x":583.0,"y":-125.0},"guid":"8e9380f1-ff2c-4d90-b4f7-b9e80bd39762","$version":"A","$type":"Bolt.TriggerCustomEvent","$id":"9"},{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{},"position":{"x":229.0,"y":-104.0},"guid":"c8bc3ab6-4b99-4fc2-976c-9db1df5b9680","$version":"A","$type":"Bolt.SuperUnit","$id":"11"},{"type":"System.String","value":{"$content":"Player","$type":"System.String"},"defaultValues":{},"position":{"x":26.0,"y":-99.0},"guid":"1248e1cd-ada0-48dd-b257-01e059ec2f2e","$version":"A","$type":"Bolt.Literal","$id":"14"},{"sourceUnit":{"$ref":"11"},"sourceKey":"target","destinationUnit":{"$ref":"9"},"destinationKey":"enter","guid":"e86269b7-f0a4-43f3-9f40-f18a2d45bb66","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"output","destinationUnit":{"$ref":"11"},"destinationKey":"tag","guid":"91c6072f-2e18-497e-9968-873e8a2da868","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"object","destinationUnit":{"$ref":"9"},"destinationKey":"target","guid":"5c474618-99dc-4eb8-a0f7-8271c1cdc45e","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 95b2cb325b19b2e42aafab1e33f16738, type: 2}
